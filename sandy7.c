@@ -1,11 +1,13 @@
-#include<stdio.h>
-int main()
-{
-int i,n;
-for(i=0;i<n;i++)
-if(i%2!=0)
-{
-printf("the odd numbers are",n);
-}
-return 0;
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	int a,b,i;
+	scanf("%d%d",&a,&b);
+	for(i=a+1;i<=b;i++)
+	{
+	if(i%2!=0)
+            printf("%d ",i);
+	}
+	return 0;
 }
